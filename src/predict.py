@@ -5,7 +5,7 @@ from flask import request
 from flask import jsonify
 
 
-model_file = '../../model/Random-Forest-Regressor.pkl'
+model_file = '/media/penscola/Penscola@Tech/Projects/Gold-Prediction/model/Random-Forest-Regressor.pkl'
 
 with open(model_file, 'rb') as f_in:
     scaler, model = pickle.load(f_in)

@@ -10,7 +10,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestRegressor
 
 # importing the dataset
-df = pd.read_csv('../../data/gld_price_data.csv')
+df = pd.read_csv('/media/penscola/Penscola@Tech/Projects/Gold-Prediction/data/gld_price_data.csv')
 print("Data Imported Successfully ✅")
 
 # Removing the date column
@@ -50,7 +50,7 @@ rf1_grid = GridSearchCV(estimator = rf1,
 rf1_grid.fit(X_train_scaled,y_train)
 
 # saving the model
-output_file = '../../model/Random-Forest-Regressor.pkl'
+output_file = '/media/penscola/Penscola@Tech/Projects/Gold-Prediction/model/Random-Forest-Regressor.pkl'
 
 with open(output_file, 'wb') as f_out:
     pickle.dump((scaler, rf1_grid), f_out)
