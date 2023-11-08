@@ -99,7 +99,7 @@ requests.post(url_local, json = test_data_values).json()
 
 ### Cloud Deployment
 
-The model was deployed to the cloud using HuggingFace Spaces.
+The model was [deployed](https://huggingface.co/spaces/penscola/Gold_Price_Prediction) to the cloud using HuggingFace Spaces.
 
 1. Create an account on [HuggingFace](https://huggingface.co/) Spaces.
 2. Create a new space and upload the model file [`model.pkl`](model/Random-Forest-Regressor.pkl) and the file [`app.py`](src/app.py) to the space.
