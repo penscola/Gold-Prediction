@@ -105,3 +105,4 @@ The model was deployed to the cloud using HuggingFace Spaces.
 2. Create a new space and upload the model file [`model.pkl`](model/Random-Forest-Regressor.pkl) and the file [`app.py`](src/app.py) to the space.
 3. Deploy the model to the cloud using the HuggingFace Spaces interface.
 
+![Alt text](/media/penscola/Penscola@Tech/Projects/Gold-Prediction/images/image.png)
